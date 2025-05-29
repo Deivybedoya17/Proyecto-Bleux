@@ -125,6 +125,8 @@ h1{
 
 .funcionalidad{
     width: 100%;
+    background-color: rgb(241, 242, 247);
+    height: 70%;
 }
 .tituloSegundo{
     color: rgba(244,21,135,255);
@@ -142,4 +144,165 @@ h1{
     width: 50%;
 }
 
+.imagensegunda img{
+    width: 50%;
+    padding-left: 31%;
+    margin-bottom: 69px;
+}
 
+.todosegundo{
+    display: flex;
+}
+
+.derechatitulo{
+    font-size: 46px;
+    color: pink;
+}
+
+.derechaDos p {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-right: 50%;
+    margin-bottom: 17px;
+}
+
+.derechaDos h4{
+    color: #ec7db7;
+    font-size: 21px;
+    margin-top: 20px;
+    font-weight: bold; 
+}
+
+.lista{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.lista li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 11px;
+    font-size: 17px;
+}
+
+.lista li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: deeppink;
+    border: 2px solid deeppink;
+    border-radius: 45%;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* SECCIONPRECIO */
+
+.precio{
+    width: 100%;
+    background-color: rgba(30,23,47,255);
+}
+
+.precio h2{
+    color: #ffff;
+    text-align: center;
+    font-size: 53px;
+    padding: 30px;
+}
+
+.decripcionDePrecio{
+    text-align: center;
+    color: #ffff;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.contenedortarjectas{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 0;
+}
+
+.contenedortarjectas > div{
+    background-color: white;
+    border-radius: 10px;
+    height: 51vh;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.contenedortarjectas img{
+    width: 24%;
+    margin-top: 14px;
+}
+
+
+.contenedortarjectas h4{
+    color: #4b465f;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.tarjecta1 .titulotarjeta{
+    color: #f656a8;
+}
+
+.contenedortarjectas h3{
+    font-size: 37px;
+    margin: 0;
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+.contenedortarjectas h3 sup{
+    font-size: 14px;
+}
+
+.listatarjeta{
+    list-style: none;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+.contenedortarjectas p{
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 20px;
+    margin-top: 29px;
+}
+
+.bottontarjeta1{
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 18px
+    
+}
+
+.bottontarjeta2{
+    background-color: #2e2550;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 18px
+}
+
+.grisbotton{
+    background-color: #f4f4f4;
+    height: 64px;
+    border-radius: 10px
+}
