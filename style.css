@@ -79,9 +79,14 @@ h1{
 }
 
 .botones {
-    display: flex;
+    /* display: flex;
     gap: 10px;
-    padding-right: 10%;
+    padding-right: 10%; */
+    border: 2px solid gray;
+    display: inline-flex;
+    padding: 7px;
+    border-radius: 10px;
+    gap: 9px;
 }
 
 .botonUno {
@@ -116,8 +121,13 @@ h1{
 /* IMAGEN DEL CELULAR */
 .derechaUno {
     position: relative;
-    left: 103px;
-    top: 100px;
+    top: 38%; 
+    left: 50px;
+    
+}
+
+.derechaUno img{
+    width: 200px;
 }
 
 /* SECCONSEGUNDA */
@@ -126,10 +136,10 @@ h1{
 .funcionalidad{
     width: 100%;
     background-color: rgb(241, 242, 247);
-    height: 70%;
+    padding-bottom: 25px;
 }
 .tituloSegundo{
-    color: rgba(244,21,135,255);
+    color: #F41787;
     text-align: center;
     font-size: 50px;
     padding: 30px;
@@ -156,7 +166,7 @@ h1{
 
 .derechatitulo{
     font-size: 46px;
-    color: pink;
+    color: #E7AECF;
 }
 
 .derechaDos p {
@@ -234,7 +244,6 @@ h1{
 .contenedortarjectas > div{
     background-color: white;
     border-radius: 10px;
-    height: 51vh;
     width: 250px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
@@ -305,4 +314,174 @@ h1{
     background-color: #f4f4f4;
     height: 64px;
     border-radius: 10px
+}
+
+footer{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+footer p {
+    padding-left: 9%;
+}
+.redes-sociales{
+    padding-right: 9%;
+    display: flex;
+    gap: 15px;
+} 
+
+.img4{
+    width: 23px;
+}
+
+.rosado {
+  color: rgb(252, 160, 175); 
+  font-weight: bold; 
+}
+
+/* REPOSIVE */
+
+@media (max-width: 1279px) {
+    /* SECCIONPRIMERA */
+    .parrafoPrimero{
+        padding-left: 12%;
+        margin-right: 63px;
+    }
+
+    .botones{
+        margin-right: 62px;
+    }
+  
+    /* FUNTIONALITIES */
+    .imagensegunda img{
+        width: 71%;
+        padding-left: 16%;
+
+    }
+
+    .derechatitulo{
+        font-size: 42px;
+    }
+
+    .derechaDos p{
+        margin-top: 11px;
+        margin-bottom: 0;
+    }
+
+    .derechaDos h4{
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 920px){
+
+    h1{
+        font-size: 82px;
+    }
+
+    .botones{
+        margin-right: 19px;
+    }
+
+    /* FUNCIONALIDADES */
+
+    .imagensegunda img{
+        width: 84%;
+        padding-left: 8%;
+        margin-bottom: 0;
+    }
+
+    .derechaDos p{
+        margin-right: 30%;
+    }
+
+    /* SECCIONTRES */
+
+    .decripcionDePrecio{
+        font-size: 15px;
+    }
+
+    .contenedortarjectas > div{
+        width: 222px;
+    }
+}
+
+@media(max-width: 768px){
+    .navegadorDerecha nav{
+        gap: 14px;
+    }
+
+    .navegadorDerecha a{
+        font-size: 13px;
+    }
+
+    .bottonNavegador{
+        padding: 11px 9px;
+    }
+
+    /* seccionprincipal */
+
+    h1{
+        font-size: 63px;
+    }
+
+    .parrafoPrimero{
+        padding-left: 6%;
+        margin-right: 0;
+    }
+
+    .botones{
+        margin-right: 10px;
+    }
+
+    .derechaUno{
+        top: 55%;
+        left: 21px;
+    }
+
+    .derechaUno img{
+        width: 142px;
+    }
+
+    /* SECCIONSEGUNDA */
+
+    .tituloSegundo{
+        font-size: 42px;
+        padding: 19px;
+    }
+
+    .imagensegunda{
+        margin-bottom: 0;
+        width: 90%;
+        padding-left: 5%;
+    }
+
+    .derechatitulo{
+        font-size: 36px;
+    }
+    .derechaDos p{
+        font-size: 16px;
+        margin-right: 17%;
+    }
+
+    .lista{
+        margin-top: 5px;
+    }
+
+    .lista li::before{
+        width: 14px;
+        height: 14px;
+        line-height: 14px;
+        font-size: 12px;
+
+    }
+
+    .lista li{
+        padding-left: 23px;
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+
 }
